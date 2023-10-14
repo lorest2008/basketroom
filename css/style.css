@@ -1,0 +1,259 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+.nav_list {
+    display: flex;
+    list-style: none;
+}
+
+.container_header {
+    display: flex;
+}
+
+.container {
+
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.container_hero-block {
+    display: flex;
+}
+
+.nav_item {
+    margin-right: 63px;
+}
+
+.nav {
+    margin: 0 auto;
+}
+
+.header {
+    background: #2C2C2C;
+    padding: 20px 0px;
+}
+
+.nav_link {
+    color: #E4E4E4;
+    font-family: Nico Moji;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.hero-block {
+    padding: 66px 0;
+    background: #2C2C2C;
+}
+
+.hero-block_content {
+    width: 40%;
+}
+
+.hero-block_img {
+    margin-right: auto;
+}
+
+.hero-block_title {
+    color: #E4E4E4;
+    font-family: Nico Moji;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.hero-block_text {
+    color: #E4E4E4;
+    font-family: Roboto;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.hero-block_btn {
+    border-radius: 6px;
+    background: var(--orange, linear-gradient(135deg, #E2A300 0%, #E29500 100%));
+    box-shadow: 0px 2px 13px 0px rgba(226, 158, 0, 0.48);
+    width: 224px;
+    height: 47px;
+    color: #000;
+    font-family: Nico Moji;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.skills_full {
+    height: 10px;
+    background: #00C4F0;
+}
+
+.skills_done1 {
+    height: 10px;
+    background: #2C2C2C;
+    width: 70%;
+}
+
+.skills_done2 {
+    height: 10px;
+    background: #2C2C2C;
+    width: 35%;
+}
+
+.about_content {
+    display: flex;
+    max-width: 1100px;
+    justify-content: space-between;
+}
+
+.about_title {
+    color: #E4E4E4;
+    font-family: Nico Moji;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: center;
+    margin: 0;
+    margin-bottom: 25px;
+}
+
+.about {
+    background: #3E3E3E;
+    padding: 55px 0;
+}
+
+.skills {
+    width: 356px;
+    margin: auto 0;
+}
+
+.skills_name {
+    color: #E4E4E4;
+    font-family: Nico Moji;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.gallegary_list {
+    list-style: none;
+}
+
+.gallery {
+    background: #3E3E3E;
+}
+
+.gallery_list {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1400px;
+    justify-content: space-between;
+    margin: 0 auto;
+    list-style: none;
+}
+
+.gallery_item {
+    width: 32%;
+}
+
+.gallery_img {
+    width: 100%;
+    height: 356px;
+    object-fit: cover;
+    margin-bottom: 25px;
+}
+
+.video_border {
+    width: 970px;
+    max-width: 970px;
+    height: 600px;
+    border-radius: 29px;
+    background: var(--gray-2, linear-gradient(135deg, #414141 0%, #2D2D2D 100%));
+    box-shadow: 0px 4px 15px 0px rgba(27, 27, 27, 0.28);
+    margin: 0 auto;
+    margin-top: 64px;
+}
+
+.video_container {
+    max-width: 881px;
+    max-height: 511px;
+    margin: auto;
+}
+
+.video_content {
+    margin-top: 44px;
+    width: 881px;
+    height: 511px;
+}
+
+.video_title {
+    color: #E4E4E4;
+    font-family: Montserrat;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: center;
+    margin: 0;
+}
+
+.video {
+    background: #2C2C2C;
+    padding: 65px 0;
+}
+
+.gallery_title {
+    color: #E4E4E4;
+    font-family: Nico Moji;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: center;
+    margin-top: 0;
+}
+
+.footer {
+    background: #2C2C2C;
+}
+
+.footer_title {
+    color: #E4E4E4;
+    font-family: Nico Moji;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.footer_text {
+    color: #FFF;
+    font-family: Nico Moji;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 164.063%;
+    /* 26.25px */
+}
+
+.footer_list {
+    display: flex;
+    list-style: none;
+    width: 243px;
+    justify-content: space-between;
+}
+
+.container_footer {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1100px;
+    margin: 0 auto;
+}
